@@ -1,0 +1,22 @@
+name = "Lume"
+grammar = "lume"
+path_suffixes = ["lm"]
+line_comments = ["// ", "/// "]
+autoclose_before = ";:.,=]}"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "<", end = ">", close = true, newline = false, not_in = [
+        "string_literal",
+        "doc_comment",
+    ] },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "string_literal",
+        "doc_comment",
+    ] },
+    { start = "'", end = "'", close = true, newline = false, not_in = [
+        "string_literal",
+        "doc_comment",
+    ] },
+]
