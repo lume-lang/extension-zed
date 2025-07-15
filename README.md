@@ -1,4 +1,4 @@
-# Zed Vue
+# Lume Extension for Zed
 
 A [Lume](https://github.com/lume-lang/lume) extension for [Zed](https://zed.dev).
 
