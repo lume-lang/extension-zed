@@ -8,8 +8,8 @@ repository = "https://github.com/lume-lang/extension-zed"
 
 [grammars.lume]
 repository = "https://github.com/lume-lang/tree-sitter-lume"
-rev = "cb029629232d2f683d57122e2405834d8f6b0d6a"
+rev = "8e47087d09b498ae2120f272bc16f1ee2e5b5966"
 
 [grammars.arc]
 repository = "https://github.com/lume-lang/tree-sitter-arc"
-rev = "7627f737d9fd969c762005b88a0e21d1cf3c9f8f"
+rev = "6db039129a88734ce3366e0d62b8d5a593f931c2"
