@@ -13,3 +13,7 @@ rev = "8e47087d09b498ae2120f272bc16f1ee2e5b5966"
 [grammars.arc]
 repository = "https://github.com/lume-lang/tree-sitter-arc"
 rev = "6db039129a88734ce3366e0d62b8d5a593f931c2"
+
+[language_servers.lume-language-server]
+name = "Lume LSP"
+languages = ["Lume"]

@@ -20,3 +20,4 @@ brackets = [
         "doc_comment",
     ] },
 ]
+tab_size = 4
