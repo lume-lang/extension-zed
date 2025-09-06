@@ -1,6 +1,6 @@
 id = "lume"
 name = "Lume"
-version = "0.1.1"
+version = "0.1.2"
 schema_version = 1
 authors = ["Max T. Kristiansen <me@maxtrier.dk>"]
 description = "Lume support."
@@ -8,7 +8,7 @@ repository = "https://github.com/lume-lang/extension-zed"
 
 [grammars.lume]
 repository = "https://github.com/lume-lang/tree-sitter-lume"
-rev = "8e47087d09b498ae2120f272bc16f1ee2e5b5966"
+rev = "3f07c6ba61f7a3ff952d024145b450781c52701f"
 
 [grammars.arc]
 repository = "https://github.com/lume-lang/tree-sitter-arc"
