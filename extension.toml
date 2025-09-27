@@ -10,10 +10,6 @@ repository = "https://github.com/lume-lang/extension-zed"
 repository = "https://github.com/lume-lang/tree-sitter-lume"
 rev = "3f07c6ba61f7a3ff952d024145b450781c52701f"
 
-[grammars.arc]
-repository = "https://github.com/lume-lang/tree-sitter-arc"
-rev = "6db039129a88734ce3366e0d62b8d5a593f931c2"
-
 [language_servers.lume-language-server]
 name = "Lume LSP"
 languages = ["Lume"]
