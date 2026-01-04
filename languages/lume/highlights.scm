@@ -18,19 +18,20 @@
 (variable_reference (identifier) @variable)
 
 ;; Types
-((type name:(_) @type) (#match? @type "^[A-Z]"))
-((type name:(path (scoped_identifier name:(_) @type) (#match? @type "^[A-Z]"))))
+((identifier) @type (#match? @type "^[A-Z]"))
 
-(type_params name: (identifier) @type)
+(type_identifier) @type
+(field_identifier) @property
 
-(struct_definition name:(identifier) @type)
-(enum_definition name:(identifier) @type)
-(trait name:(identifier) @type)
+(self_type) @type
+
+(type_parameters name: (identifier) @type)
 
 (enum_definition) @enum
-(enum_case_definition) @property
-(enum_case_properties) @property
-(property name:(_) @property)
+(enum_variant_definition) @type
+
+;; Attributes
+(attribute name:(_) @attribute)
 
 ;; Expressions
 (construct_expression) @constructor
@@ -91,13 +92,11 @@
 ]  @punctuation.bracket
 
 ;; Keywords
-(self_reference) @variable.builtin
 (self) @variable.builtin
 
 [
   "as"
   "break"
-  "builtin"
   "continue"
   "else"
   "enum"
@@ -106,9 +105,11 @@
   "fn"
   "for"
   "if"
+  "is"
   "impl"
   "import"
   "in"
+  "internal"
   "let"
   "loop"
   "namespace"
@@ -116,6 +117,7 @@
   "priv"
   "return"
   "struct"
+  "switch"
   "trait"
   "true"
   "use"
