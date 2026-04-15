@@ -120,6 +120,9 @@
   "switch"
   "trait"
   "true"
+  "unsafe"
   "use"
   "while"
 ] @keyword
+
+(attribute) @attribute

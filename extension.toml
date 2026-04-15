@@ -8,7 +8,7 @@ repository = "https://github.com/lume-lang/extension-zed"
 
 [grammars.lume]
 repository = "https://github.com/lume-lang/tree-sitter-lume"
-rev = "1e1f1b70d74d484309547a1d7e067309b7eaabe5"
+rev = "f7d60a167fdc67b6e86df81c7b094f4ad2bcae40"
 
 [language_servers.lume-language-server]
 name = "Lume LSP"
